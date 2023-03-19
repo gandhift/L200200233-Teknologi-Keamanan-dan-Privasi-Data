@@ -20,7 +20,7 @@ def decrypt_shift_cipher(ciphered_text, key):
     return output_text
 
 
-input_text = '233'
+input_text = '33'
 key = 3
 ciphered_text = encrypt_shift_cipher(input_text, key)
 print("pesan yang dienkripsi ", ciphered_text)
